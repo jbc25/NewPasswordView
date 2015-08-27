@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NewPasswordViewSample</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="show_dialog">Show Dialog</string>
+    <string name="enter_new_password">Enter new password</string>
+    <string name="new_pass_correct">New password correct!</string>
+</resources>

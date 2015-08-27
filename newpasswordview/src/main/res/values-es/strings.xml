@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NewPasswordView</string>
+    <string name="accept">Aceptar</string>
+    <string name="at_least_x_characters">Minimo %d caracteres</string>
+    <string name="cancel">Cancelar</string>
+    <string name="pass_dont_match">Contraseñas no coinciden</string>
+    <string name="password">Contraseña</string>
+    <string name="repeat_password">Repetir contraseña</string>
+    <string name="check">Comprobar</string>
+</resources>
