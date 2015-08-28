@@ -54,6 +54,10 @@ public class NewPasswordView extends LinearLayout implements View.OnClickListene
         mButtonCheck.setVisibility(visible ? View.VISIBLE : View.GONE);
     }
 
+    /**
+     * Set the minimum lenght of the password. By default 6
+     * @param lenght
+     */
     public void setMinimumLenght(int lenght) {
         this.minimumLenght = lenght;
     }
@@ -140,8 +144,17 @@ public class NewPasswordView extends LinearLayout implements View.OnClickListene
 
     // --- CALLBACK ---
     public interface OnPasswordCheckListener {
+
+        /**
+         * Called if password have minimum lenght and both matches
+         * @param password The password string user have introduced. If an encryption method was configured, this is the hashed password
+         */
         public void onPasswordCorrect(String password);
 
+        /**
+         * View holds internally error messages, but it can be interesting to handle externally as well :)
+         * @param reason 2 errors possible: "At least x characters" and "Password does not match"
+         */
         public void onPasswordError(String reason);
     }
 
