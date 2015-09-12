@@ -1,11 +1,11 @@
 # NewPasswordView
 With this small library you will be able to include the common used "new password" view in your app very easily.
-Use it directly on your layout or make it easier using it NewPassworDialog!
+Use it directly on your layout or make it easier using it NewPasswordDialog!
 
 There is also a sample showing how it works
 
 ### Features
-- Passwords check: minimum lenght and match showing errors if proceed
+- Passwords check: minimum length and match showing errors if proceed
 - Password encryption
 - English and spanish translation
 - Soft keyboard IME options friendly
@@ -13,7 +13,7 @@ There is also a sample showing how it works
 
 ### Getting started
 
-To use it, just include in you layout:
+To use it, just include in your layout:
 ```xml
 <com.triskelapps.newpasswordview.NewPasswordView
         android:id="@+id/view_new_pass"
@@ -50,7 +50,7 @@ Optionally, some configurations:
 ```java
 
 viewNewPassword.digestPassword("SHA-1");
-viewNewPassword.setMinimumLenght(4);
+viewNewPassword.setMinimumLength(4);
 ```
 
 Also you can handle Check action by yourself:
